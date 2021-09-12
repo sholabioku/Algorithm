@@ -1,1 +1,1 @@
-// Write a simple cypher that rotates every character (in range [a-zA-Z], special character will be ignored by the cypher) by 13 chars. As an addition to original ROT13 cypher, this cypher will also cypher numerical digits ([0-9]) with 5 chars 
+// Write a simple cypher that rotates every character (in range [a-zA-Z], special character will be ignored by the cypher) by 13 chars. As an addition to original ROT13 cypher, this cypher will also cypher numerical digits ([0-9]) with 5 chars 07055366950
