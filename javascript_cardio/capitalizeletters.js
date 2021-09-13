@@ -10,9 +10,9 @@ function capitalizeLetters(str) {
 
   // return strArr.join(' ');
 
-  return str.replace(/\b[a-z]/gi, char => {
-    return char.toUpperCase();
-  })
+  // return str.replace(/\b[a-z]/gi, char => {
+  //   return char.toUpperCase();
+  // })
 
 }
 
