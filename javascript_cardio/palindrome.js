@@ -5,9 +5,13 @@
 function isPalindrome(str) {
   // const revStr = [...str].reverse().join('');
 
-  const revStr = str.split('').reverse().join('');
+  // const revStr = str.split('').reverse().join('');
 
-  return revStr === str;
+  // return revStr === str;
+
+  return str.split('').every((char, i) => {
+    return char === str[str.length -i -1]
+  })
 }
 
-console.log(isPalindrome('racecar!'))
+console.log(isPalindrome('racecar'))
